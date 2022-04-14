@@ -1,0 +1,112 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=r:\!_Work\Alex_K\Progs\InkCalc\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+SETUP.EXE=D:\!_Work\Alex_K\Progs\InkCalc\SETUP.EXE
+pdfimages.exe=\\psf\R\!_Work\Alex_K\Progs\InkCalc\pdfimages.exe
+pdftoppm.exe=\\psf\R\!_Work\Alex_K\Progs\InkCalc\pdftoppm.exe
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+pdftoppm.exe=
+pdfimages.exe=
+
+[Package|Standard Setup Package 1|Files Removed]
+d:\!_work\alex_k\progs\inkcalc\pdfimages.exe=
+d:\!_work\alex_k\progs\inkcalc\pdftoppm.exe=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\GflAx.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+\\psf\R\!_Work\Alex_K\Progs\InkCalc\InkCalc.exe=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+\\psf\R\!_Work\Alex_K\Progs\InkCalc\pdftoppm.exe=Yes
+\\psf\R\!_Work\Alex_K\Progs\InkCalc\pdfimages.exe=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\!_Work\Alex_K\Progs\InkCalc\InkCalc.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\GflAx.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\!_Work\Alex_K\Progs\InkCalc\pdftoppm.exe=$(AppPath)
+D:\!_Work\Alex_K\Progs\InkCalc\pdfimages.exe=$(AppPath)
+D:\!_Work\Alex_K\Progs\InkCalc\SETUP.EXE=$(AppPath)
+\\psf\R\!_Work\Alex_K\Progs\InkCalc\InkCalc.exe=$(AppPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+\\psf\R\!_Work\Alex_K\Progs\InkCalc\pdftoppm.exe=$(AppPath)
+\\psf\R\!_Work\Alex_K\Progs\InkCalc\pdfimages.exe=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\!_Work\Alex_K\Progs\InkCalc\InkCalc.exe=No
+D:\!_Work\Alex_K\Progs\InkCalc\pdftoppm.exe=No
+D:\!_Work\Alex_K\Progs\InkCalc\pdfimages.exe=No
+\\psf\R\!_Work\Alex_K\Progs\InkCalc\InkCalc.exe=No
+\\psf\R\!_Work\Alex_K\Progs\InkCalc\pdftoppm.exe=No
+\\psf\R\!_Work\Alex_K\Progs\InkCalc\pdfimages.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Ink Coverage Calculator
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=r:\!_Work\Alex_K\Progs\InkCalc\Package
+ProjectFolder=\\psf\R\!_Work\Alex_K\Progs\InkCalc
+ServerSideCab=
+File1=r:\!_Work\Alex_K\Progs\InkCalc\Package\setup.exe
+File2=r:\!_Work\Alex_K\Progs\InkCalc\Package\Setup.Lst
+File3=r:\!_Work\Alex_K\Progs\InkCalc\Package\InkCalc.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=InkCalc
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|InkCalc]
+Icon1=InkCalc.exe
+Title1=InkCalc
+StartIn1=$(AppPath)
+Key1=Icon1
